@@ -211,8 +211,6 @@ text-align:center;
         margin-top: 5px;
     }
 
-
-
 /* Timeline Fixed on mobile*/
 @media (max-width: 300px) {
 .type-wrap{
@@ -287,15 +285,14 @@ h5,
 h6 {
     text-transform: uppercase;
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
-    font-weight: 100;
+    font-weight: 400;
 }
 
 h4,h1 {
     text-transform: uppercase;
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
-    font-weight: 200;
+    
 }
-
 
 header {
     color: #fff;
@@ -366,7 +363,6 @@ header .intro-text .skills {
     .navbar-fixed-top.navbar-shrink {
         padding: 10px 0;
     }
-
     
 }
 
