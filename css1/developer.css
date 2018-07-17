@@ -460,8 +460,9 @@ section.success a.active {
 }
 
 .textFooter{
-  color: #fff;
+  color: #fff !important;
 }
+
 footer {
     color: #233140;
 }
