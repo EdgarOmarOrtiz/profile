@@ -263,7 +263,7 @@ body {
 
 p {
     font-size: 20px;
-    font-weight: 200;
+    font-weight: 300;
 }
 
 p.small {
@@ -316,6 +316,9 @@ header .container {
 	margin:150px auto;
 }
 
+#contact{
+    
+}
 
 header .intro-text .name {
     display: block;
