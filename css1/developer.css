@@ -459,12 +459,8 @@ section.success a.active {
     background: #fff;
 }
 
-.textFooter{
-  color: #fff !important;
-}
-
 footer {
-    color: #233140;
+    color: #fff;
 }
 
 footer h3 {
