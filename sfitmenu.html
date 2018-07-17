@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<!-- Head Configuration-->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>SFit - Home</title>
+
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/bootstrapSfit.css" rel="stylesheet">
+
+  
+    <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+    <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+
+
+</head>
+
+<body>
+
+  <!--Navigation Bar-->
+<nav class="navbar navbar-inverse navbar-fixed-top" >
+        <div class="container">
+    
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+
+                </button>
+                <a class="navbar-brand" href="sfitmenu.html">Smart Fitness</a>
+            </div>
+         
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right">
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Wearables <b class="caret"></b></a>
+                        <ul class="dropdown-menu">
+                            <li>  
+                               <a href="pages/samsunggear.html">Samsung Gear S2</a>
+                            </li>
+                            <li>
+                                <a href="pages/applewatch.html">Apple Watch</a>
+                            </li>
+                            <li>
+                               <a href="pages/fitbitblaze.html">FitBit Blaze</a>
+                            </li>
+                        </ul>
+                        
+                    <li>
+                        <a href="pages/about.html">About Us</a>
+                    </li>
+                    
+                    <li>
+                        <a href="pages/contact.html">Contact</a>
+                    </li>
+                    
+                    <li>
+                        <a href="pages/sitemap.html">Site Map</a>
+                    </li>
+                    
+                </ul>
+            </div>
+           
+        </div>
+      
+    </nav>
+
+<!--Carousel-->
+    <header id="myCarousel" class="carousel slide">
+        <ol class="carousel-indicators">
+            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+            <li data-target="#myCarousel" data-slide-to="1"></li>
+            <li data-target="#myCarousel" data-slide-to="2"></li>
+        </ol>
+
+       
+        <div class="carousel-inner">
+            <div class="item active">
+                <div class="fill" style="background-image:url('images/s1.jpg');"></div>
+                <div class="carousel-caption">
+                    <h6>Samsung Gear S2</h6>
+                </div>
+            </div>
+            <div class="item">
+                <div class="fill" style="background-image:url('images/apple-watch.jpg');"></div>
+                <div class="carousel-caption">
+                    <h6>Apple Watch</h6>
+                </div>
+            </div>
+            <div class="item">
+                <div class="fill" style="background-image:url('images/fitblaze.png');"></div>
+                <div class="carousel-caption">
+                    <h6>FitBit Blaze</h6>
+                </div>
+            </div>
+        </div>
+
+  
+        <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+            <span class="icon-prev"></span>
+        </a>
+        <a class="right carousel-control" href="#myCarousel" data-slide="next">
+            <span class="icon-next"></span>
+        </a>
+    </header>
+
+<!--Stories with gradient configuration-->
+    <div class="container">
+     <div class="gradient">
+        <div class="container-fluid bg-2 text-center">
+         <h3> Apple Watch saves Dennis's lives</h3>
+         <p><i>"When I flipped it up, it came up at 210 beats per minute," he said, noting his normal resting heart pulse was 60 beats per minute. <br> “I said, ‘I think I better call 911,”</i> - Dennis Anselmo. </p>
+         <a style= "color:#EDEDED" href="http://www.ctvnews.ca/sci-tech/alberta-man-credits-smartwatch-with-spotting-heart-attack-1.2822531">See more</a>
+       </div>
+    
+        <hr>
+        
+      <div class="container-fluid bg-2 text-center">
+       <h3>Apple Watch saves Paul's lives</h3>
+       <p><i>"After practice I went and took a nap, my heart rate was still at 145. <br> If my Apple Watch hadn't told me it was 145, I would have done nothing about it."</i> - Paul Houle. </p>
+       <a style= "color:#EDEDED" href="http://www.ibtimes.co.uk/apple-watch-saves-life-boston-teenager-suffering-heart-lung-liver-failure-1520549">See more</a>
+     </div>
+    <hr>
+ </div>
+</div>
+<!--Footer-->
+        <footer>
+            <div class="row">
+                <div class="col-lg-12">
+                    <p>Copyright &copy; Smart Fitness 2016</p>
+                </div>
+            </div>
+        </footer>
+
+  
+<div>
+              
+</div>
+   
+    <!--Js Files-->
+    <script src="js/jquery.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+  <!-- Script to Activate the Carousel -->
+    <script>
+    $('.carousel').carousel({
+        interval: 5000 //changes the speed
+    })
+    </script>
+</body>
+
+</html>

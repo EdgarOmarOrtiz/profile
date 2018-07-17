@@ -1,0 +1,203 @@
+
+html,body {
+  width: 100%;
+	height: 100%;
+    margin: 0;
+    padding: 0;
+
+}
+
+
+/* Gradiente configuration CSS*/	
+.gradient{
+  
+     margin-top: 0px;
+    margin-bottom: 0px;
+    margin-right: -78px;
+    margin-left: -78px;
+ 
+    background: linear-gradient(270deg, #f48a00, #0080f4);
+	background-size: 600% 600%;
+	-webkit-animation: Gradient 40s ease infinite;
+	-moz-animation: Gradient 40s ease infinite;
+	animation: Gradient 40s ease infinite;
+}
+
+body {
+
+    padding-top: 50px; 
+}
+
+.img-portfolio {
+    margin-bottom: 30px;
+}
+
+.img-hover:hover {
+    opacity: 0.8;
+}
+/* Carousel config CSS*/	
+header.carousel {
+    height: 50%;
+	width: 100%;
+}
+
+header.carousel .item,
+header.carousel .item.active,
+header.carousel .carousel-inner {
+    height: 100%;
+}
+
+header.carousel .fill {
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+}
+
+.bg-2 {
+     
+      color: #ffffff;
+  }
+
+
+.period {
+    display: block;
+    font-style: italic;
+}
+
+a {
+    color: #353535;
+}
+
+/* Footer config CSS*/	
+footer {
+    margin: 30px 0;
+    text-align: center; 
+    
+}
+/* Carousel btns configuration CSS*/	
+#carouselButtons {
+    margin-left: 100px;
+    position: absolute;
+    bottom: 0px;
+}
+/* Custom Page */	
+@media(max-width:991px) {
+    .customer-img,
+    .img-related {
+        margin-bottom: 30px;
+    }
+	
+}
+
+@media(max-width:767px) {
+    .img-portfolio {
+        margin-bottom: 15px;
+    }
+
+    header.carousel .carousel{
+        height: auto;
+		width:  auto;
+    }
+	
+	.gradient{
+     margin-top: 0px;
+    margin-bottom: 0px;
+    margin-right: -20px;
+    margin-left: -20px;
+ 
+    background: linear-gradient(270deg, #f48a00, #0080f4);
+	background-size: 600% 600%;
+	-webkit-animation: Gradient 60s ease infinite;
+	-moz-animation: Gradient 60s ease infinite;
+	animation: Gradient 60s ease infinite;
+	}
+	
+	.col-md-8 {
+    position: relative;
+    padding-bottom: 90%;
+    padding-top: 15px;
+	padding-left: 0px;
+	padding-right: 0px;
+    height: 0;
+    overflow: hidden;
+
+}
+.Contact{
+   margin: 30px 0;
+   text-align: center; 
+}
+
+
+.AboutInfo{
+   margin: 30px 0;
+   text-align: center; 
+}
+.ButtonsStore{
+    text-align: center; 
+}
+	
+}
+    
+  /* custome page different pxs*/	
+  @media(max-width:600px) {
+    .img-portfolio {
+        margin-bottom: 15px;
+    }
+
+    header.carousel .carousel{
+        height: auto;
+		width:  auto;
+    }
+/* Gradiente CSS*/	
+	.gradient{
+     margin-top: 0px;
+    margin-bottom: 0px;
+    margin-right: -15px;
+    margin-left: -15px;
+ 
+    background: linear-gradient(270deg, #f48a00, #0080f4);
+	background-size: 600% 600%;
+	-webkit-animation: Gradient 60s ease infinite;
+	-moz-animation: Gradient 60s ease infinite;
+	animation: Gradient 60s ease infinite;
+}
+	.col-md-8 {
+    position: fixed;
+    padding-bottom: 90%;
+    padding-top: 15px;
+	padding-left: 0px;
+	padding-right: 0px;
+    height: 0;
+    overflow: hidden;
+
+}
+
+.Contact{
+   margin: 30px 0;
+   text-align:center; 
+}
+
+
+.AboutInfo{
+   margin: 30px 0;
+   text-align: center; 
+}
+  
+}
+/* Gradient Background Settings */  
+  @-webkit-keyframes Gradient {
+		0%{background-position:0% 50%}
+		50%{background-position:100% 50%}
+		100%{background-position:0% 50%}
+	}
+	@-moz-keyframes Gradient {
+		0%{background-position:0% 50%}
+		50%{background-position:100% 50%}
+		100%{background-position:0% 50%}
+	}
+	@keyframes Gradient { 
+		0%{background-position:0% 50%}
+		50%{background-position:100% 50%}
+		100%{background-position:0% 50%}
+	}

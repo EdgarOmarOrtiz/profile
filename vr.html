@@ -1,0 +1,133 @@
+<!--
+
+
+
+ HELLO CURIOUS!
+
+-Welcome to my Mind-
+
+
+VR Beta Version
+
+-->
+
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="description" content="Enjoy virtual reality | My Mind">
+    <title>My Mind</title>
+   <script src="https://aframe.io/releases/latest/aframe.min.js"></script>
+   <!-- Bootstrap Core CSS -  -->
+    <link href="css1/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="css1/developer.css" rel="stylesheet">
+
+  
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+
+
+     <nav class="navbar navbar-transparent navbar-fixed-top">
+        <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header page-scroll">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+            </div>
+  
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse"  id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right">
+
+                    <li class="page-scroll">
+                        <a href="index.html">Profile</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container-fluid -->
+    </nav>
+    
+<a-scene>
+
+  <a-image src="images/mind.png" width="4.6" height=".5" position="0 2 0"  >
+    
+     <a-animation attribute="scale" from="1 0 1" to="0.75 0.75 0.75" begin="1500"
+                       dur="200" fill="both" easing="ease-out"></a-animation>
+          <a-animation attribute="position" from="0 -3 0" to="0 2 0" begin="1000"
+                       dur="1000" fill="both" easing="ease-out"></a-animation>
+    
+    
+  </a-image>
+
+  
+    <a-curvedimage src="images/c.png" radius="5.7" theta-length="10" width="1" height="1"
+                     rotation="0 -230 0"  position="-1 -1.5 4"  ></a-curvedimage>
+  
+    <a-curvedimage src="images/c++.png" radius="5.7" theta-length="10" width="1" height="1"
+                     rotation="0 -100 0"  position="0 -.7 4" ></a-curvedimage>
+
+    <a-curvedimage src="images/css.png" radius="5.7" theta-length="10" width="1" height="1"
+                     rotation="0 -150 0"  position="0 -2.5 4" ></a-curvedimage>
+
+    <a-curvedimage src="images/js.png" radius="8.7" theta-length="10" width="1" height="1"
+                     rotation="0 -110 0"  position="0 3.5 0" ></a-curvedimage>
+      
+    <a-curvedimage src="images/php.png" radius="13.7" theta-length="10" width="1" height="1"
+                     rotation="0 -606 0"  position="0 4.5 0" ></a-curvedimage>
+ 
+
+    <a-curvedimage src="images/linux.png" radius="5.7" theta-length="20" width="2" height="2"
+                     rotation="0 15 0"  position="0 -11.5 0" ></a-curvedimage>
+   
+    <a-curvedimage src="images/java.png" radius="5.7" theta-length="10" width="1" height="1"
+                     rotation="0 -800 0"  position="0 -2.5 3" ></a-curvedimage>
+    
+    <a-curvedimage src="images/html.png" radius="5.7" theta-length="10" width="2" height="2"
+                   position="0 14.5 0" ></a-curvedimage>
+        
+    <a-curvedimage src="images/geek.png" radius="7.7" theta-length="55" height=".7"
+                  rotation="0 -150 0" position="0 2 0"  ></a-curvedimage>
+    
+   <a-curvedimage src="images/apple.png" radius="7.7" theta-length="10" width="1" height="1"
+                  rotation="0 -150 0" position="0 5.5 0" "  ></a-curvedimage>
+     
+   <a-curvedimage src="images/ruby.png" radius="7.7" theta-length="10"  height="1"
+                  rotation="0 -200 0" position="0 8.5 0"  ></a-curvedimage>
+
+   <a-curvedimage src="images/windows.png" radius="10.7" theta-length="10" width="1" height="1"
+                  rotation="0 -190 0" position="0 -5.5 0"  ></a-curvedimage>
+
+  <a-curvedimage src="images/vb.png" radius="5.7" theta-length="10" width="1" height="1"
+                  rotation="0 -610 0" position="0 1.5 0"  ></a-curvedimage>
+
+  <a-curvedimage src="images/android.png" radius="5" theta-length="10" width="1" height="1"
+                  rotation="0 -610 0" position="0 5.5 0"  ></a-curvedimage>
+
+  <a-curvedimage src="images/swift.png" radius="5.7" theta-length="10" width="1" height="1"
+                  rotation="0 -130 0" position="0 8.5 0"  ></a-curvedimage>
+
+
+     <a-sky color="#142536">
+  
+  <!--OC #244b76 -->
+      
+     </a-sky>
+  
+</a-scene>
+  </body>
+</html>
