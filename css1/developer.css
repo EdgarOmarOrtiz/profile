@@ -280,6 +280,7 @@ a.active {
 }
 
 
+
 h2,
 h3,
 h5,
@@ -402,7 +403,7 @@ section h2 {
 
 section.success {
     color: #fff;
-    background: #244b76;
+    background: #fff;
 }
 
 section.success a,
