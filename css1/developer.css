@@ -260,6 +260,10 @@ text-align:center;
     color: #fff;
 }
 
+.skillsTitle{
+ margin-bottom: 5%;
+}
+
 body {
     overflow-x: hidden;
 }
