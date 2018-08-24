@@ -3,253 +3,38 @@
 <head>
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link href="profile.css" rel="stylesheet">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
-
-<style>
-
-body,h1 {font-family: "Helvetica"}
-body, html {height: 100%}
-
-.covertxt {
-    background-color: #34495E ; 
-    min-height: 100%;
-    background-position: center;
-    background-size: cover;
-    font-size: 1.5em;
-}
-
-
-* {
-    box-sizing: border-box;
-}
-
-/* The actual timeline (the vertical ruler) */
-.timeline {
-    position: relative;
-    max-width: 1200px;
-    margin: 0 auto;
-}
-
-/* The actual timeline (the vertical ruler) */
-.timeline::after {
-    content: '';
-    position: absolute;
-    width: 6px;
-    background-color: #34495E;
-    top: 0;
-    bottom: 0;
-    left: 50%;
-    margin-left: -3px;
-}
-
-/* Container around content */
-.container1 {
-    padding: 10px 40px;
-    position: relative;
-    background-color: inherit;
-    width: 50%;
-}
-
-/* The circles on the timeline */
-.container1::after {
-    content: '';
-    position: absolute;
-    width: 25px;
-    height: 25px;
-    right: -17px;
-    background-color: white;
-    border: 4px solid #EC7063;
-    top: 15px;
-    border-radius: 50%;
-    z-index: 1;
-}
-
-/* Place the container to the left */
-.left {
-    left: 0;
-}
-
-/* Place the container to the right */
-.right {
-    left: 50%;
-}
-
-/* Add arrows to the left container (pointing right) */
-.left::before {
-    content: " ";
-    height: 0;
-    position: absolute;
-    top: 22px;
-    width: 0;
-    z-index: 1;
-    right: 30px;
-    border: medium solid #EC7063;
-    border-width: 10px 0 10px 10px;
-}
-
-/* Add arrows to the right container (pointing left) */
-.right::before {
-    content: " ";
-    height: 0;
-    position: absolute;
-    top: 22px;
-    width: 0;
-    z-index: 1;
-    left: 30px;
-    border: medium solid #EC7063;
-    border-width: 10px 10px 10px 0;
-}
-
-/* Fix the circle for containers on the right side */
-.right::after {
-    left: -16px;
-}
-
-/* The actual content */
-.content {
-    padding: 20px 30px;
-    background-color: white;
-    position: relative;
-    border-radius: 6px;
-    background-color: #FAF8F8;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-}
-
-/* Media queries - Responsive timeline on screens less than 600px wide */
-@media screen and (max-width: 600px) {
-  /* Place the timelime to the left */
-  .timeline::after {
-    left: 31px;
-  }
-  
-  /* Full-width containers */
-  .container1 {
-    width: 100%;
-    padding-left: 70px;
-    padding-right: 25px;
-  }
-  
-  /* Make sure that all arrows are pointing leftwards */
-  .container1::before {
-    left: 60px;
-    border: medium solid #EC7063;
-    border-width: 10px 10px 10px 0;
-  }
-
-  /* Make sure all circles are at the same spot */
-  .left::after, .right::after {
-    left: 15px;
-  }
-  
-  /* Make all right containers behave like the left ones */
-  .right {
-    left: 0%;
-  }
-
-  .year{
-    color: #EC7063;
-  }
-
-
-
-/*Text Animation*/
-  @media only screen and (min-width:1200px){
-        /* styles for browsers larger than 1100px; */
- 
-
-.type-wrap{
-
-    font-family:  Helvetica;
-    font-size: 4em;
-    font-weight: 100;
-}
-   
-    }
-@media only screen and (max-width:500px){
-
-.type-wrap{
-
-    font-family:  Helvetica;
-    font-size: 3em;
-    font-weight: 100;
-
-  }
-}
-@media only screen and (min-width:400px){
-.type-wrap{
-    font-family:  Helvetica;
-    font-size: 2em;
-    font-weight: 100;
-  }
-}
-
-@media only screen and (max-width:399px){
-
-.type-wrap{
-    font-family:  Helvetica;
-    font-size: 1em;
-    font-weight: 200;
-  }
-}
-
-@media (max-width: 767px) {
-    ul.timeline:before {
-        left: 40px;
-    }
-
-.type-wrap{
-
-    font-family:  Helvetica;
-    font-size: 1.4em;
-    font-weight: 100;
-  }
-
-/* code for animated blinking cursor */
-        .typed-cursor{
-            opacity: 1;
-            font-weight: 100;
-            -webkit-animation: blink 0.7s infinite;
-            -moz-animation: blink 0.7s infinite;
-            -ms-animation: blink 0.7s infinite;
-            -o-animation: blink 0.7s infinite;
-            animation: blink 0.7s infinite;
-        }
-        @-keyframes blink{
-            0% { opacity:1; }
-            50% { opacity:0; }
-            100% { opacity:1; }
-        }
-        @-webkit-keyframes blink{
-            0% { opacity:1; }
-            50% { opacity:0; }
-            100% { opacity:1; }
-        }
-        @-moz-keyframes blink{
-            0% { opacity:1; }
-            50% { opacity:0; }
-            100% { opacity:1; }
-        }
-        @-ms-keyframes blink{
-            0% { opacity:1; }
-            50% { opacity:0; }
-            100% { opacity:1; }
-        }
-        @-o-keyframes blink{
-            0% { opacity:1; }
-            50% { opacity:0; }
-            100% { opacity:1; }
-        }
-</style>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+<link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
 
 </head>
 <body>
 
-<div class="covertxt w3-display-container w3-text-white">
+<div class="bgimg w3-display-container w3-animate-opacity ">
+  <div class="w3-display-middle">
+        <div class="w3-container">
+         <p class="w3-center"><img src="images/Geek.jpg" class="w3-circle" style="height:106px;width:106px" alt="picture"></p>
+      </div>
+          <div class="type-wrap">
+            <div id="typed-strings">
+                  <p>Hi, I'm a Software Developer.</p>
+                  <p>I <strong style="color:#ff0000">love</strong> code</p>
+                  <p>and... </p>
+                  <p>create<strong style="color:#EC7063"> amazing </strong>things.</p>
+                  <p>Enjoy my profile!</p>
+             </div>
+       <span id="typed" style="white-space:pre;"></span>
+     </div>
+  </div>
+</div>
+
+<!--<div class="covertxt w3-display-container w3-text-white">
   <div class="w3-display-middle">
     <p class="w3-large w3-center">
       <div class="type-wrap">
             <div id="typed-strings">
-                  <p >Hi, I'm a developer.</p>
+                  <p >Hi, I'm a Software Developer.</p>
                   <p>I <strong style="color:#ff0000">love</strong> code</p>
                   <p>and</p>
                   <p>create<strong style="color:#fdef14"> amazing </strong>things.</p>
@@ -259,11 +44,8 @@ body, html {height: 100%}
      </div>
   </div>
 </div>
-
-
+-->
       
-
-
 <div class="timeline">
   <div class="container1 left ">
     <div class="content">
@@ -272,7 +54,6 @@ body, html {height: 100%}
       <p>Bachelor's Degree: Economy</p>
     </div>
   </div>
-
   <div class="container1 right">
     <div class="content">
       <h2 class="year">2013</h2>
@@ -293,14 +74,12 @@ body, html {height: 100%}
       <p>MQIT</p> 
     </div>
   </div>
-
   <div class="container1 left">
     <div class="content">
       <p><a>Internship - <a href="http://www.ciracet.com"><img src="images/ciracet.png" alt="Ciracet logo" height="25" width="65"></a><p>
       <p>Web Developer</p>     
     </div>
   </div>
-
   <div class="container1 right">
     <div class="content">
       <h2 class="year">2016</h2>
@@ -331,11 +110,11 @@ body, html {height: 100%}
 </div>
 
 
- <section id="skills" >
+ <section class="coverskills">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
-                    <h2>Skills</h2>
+                    <h1 style="margin-bottom: 5%;margin-top: 10%">Skills</h1>
                 </div>
             </div>
            
@@ -355,7 +134,6 @@ body, html {height: 100%}
                  </div>
                </div>
           
-
                 <div style= text-align:center class="col-lg-4">
            <h4 class="skillsTitle">Platforms</h4>
                       <div>
@@ -369,7 +147,6 @@ body, html {height: 100%}
                         <p>Power Pivot</P>
                       </div>
                 </div>
-
                  <div style= text-align:center class="col-lg-4">
                     <h4 class="skillsTitle">Operating Systems</h4>
                     <p>Linux</p>
@@ -379,63 +156,30 @@ body, html {height: 100%}
               </div>
             </div>
     </section>
-
-    <!-- Contact Section -->
-    <section id="contact">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12 text-center">
-                  <h2 style="color:#d42c45">Contact Me</h2>
-                  <p><i class="fa fa-envelope-o"></i>
-                  <a href="mailto:edgar.ortiz6@gmail.com">eomar.ortiz6@gmail.com</a><br>
-                  </p>
-                 </div>
-             </div>
-            </div>
-    </section>
-
-
+   
     <!-- Footer -->
     <footer class="text-center">
         <div class="footer-above">
-            <div class="container">
-               
+            <div class="container-fluid">
                 <div class="row">
-
                     <div class="footer-col col-md-4">
-                      <h3 class="textFooter" ><span class="glyphicon glyphicon-map-marker"></span> Location</h3>
-                      <p class="textFooter" >Isabela, P.R.</p>
+                      <h3><!--<img src="images/si-glyph-pin-location.svg"/>--> Location</h3>
+                      <p>P.R.</p>
                     </div>
                    
                     <div id= "idea" class="footer-col col-md-4">
-                     <h3 class="textFooter"> Any idea? </h3>
-                     <a class="btn btn-lg btn-outline" href="mailto:eomar.ortiz6@gmail.com">Let's talk about it. </a>
+                     <h3> Any idea? </h3>
+                     <a class="btn btn-lg btn-outline " style="border: solid 2px #d42c45;" href="mailto:eomar.ortiz6@gmail.com">Let's talk about it. </a>
                     </div>
-                   
 
                    <div class="footer-col col-md-4">
-                        <h3 class="textFooter" ><span class="glyphicon glyphicon-globe"></span> Meet Me</h3>
-                            <!--<li>
-                                <a id="twitter" href="https://twitter.com/ortiz6edgar" class="btn-social btn-outline"><i class="fa fa-fw fa-twitter"></i></a>
-                            </li>-->
-                            <div>
-                                <a id="linkedin" href="https://pr.linkedin.com/in/edgar-omar-ortiz-rivera-971892ba" class="btn-social btn-outline"><i      class="fa fa-fw fa-linkedin"></i></a>
-                            </div>      
-                            <div>
-                                <a id="instagram" href="https://www.instagram.com/_omi1/" class="btn-social btn-outline"><i class="fa fa-instagram"></i></a>
-                            </div>
-
-                    </div>
-                </div>
-            </div>
-        </div>
-
-
-      <div class="footer-below">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-12">
-                        This is my personal resume and I hope you enjoyed it. See you soon.<br>
+                        <h3><!--<img src="images/si-glyph-global.svg"/>--> Meet Me</h3>
+                          <ul class="list-inline">
+                            <li>
+                                <a id="linkedin" href="https://pr.linkedin.com/in/edgar-omar-ortiz-rivera-971892ba" class="btn-social btn-outline"><i class="fa fa-fw fa-linkedin"></i></a>
+                                 <a id="instagram" href="https://www.instagram.com/_omi1/" class="btn-social btn-outline"><i class="fa fa-instagram"></i></a>
+                            </li>      
+                        </ul>
                     </div>
                 </div>
             </div>
@@ -473,6 +217,5 @@ body, html {height: 100%}
           function newTyped(){ /* A new typed object */ }
           function foo(){ console.log("Callback"); }
     </script>
-
 </body>
 </html>
