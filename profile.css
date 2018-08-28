@@ -63,6 +63,11 @@ footer .footer-below {
    color: #fff !important;
 }
 
+#facebook:hover{
+  background: #3B5998;
+  color: #fff;
+}
+
 .btn-outline {
     margin-top: 15px;
     border: solid 2px #fff;
