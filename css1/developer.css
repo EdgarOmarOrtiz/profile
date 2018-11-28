@@ -73,7 +73,7 @@ text-align:center;
         position: absolute;
         content: " ";
         width: 3px;
-        background-color: #eeeeee;
+        background: linear-gradient(to bottom, #ffffff 0%, #406080 0.6%);
         left: 50%;
         margin-left: -1.5px;
     }
