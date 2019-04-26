@@ -117,7 +117,6 @@ footer .footer-below {
 }
 /* The actual timeline (the vertical ruler) */
 .timeline::after {
-    content: '';
     position: absolute;
     width: 6px;
     background-color: #406080;
@@ -135,7 +134,6 @@ footer .footer-below {
 }
 /* The circles on the timeline */
 .container1::after {
-    content: '';
     position: absolute;
     width: 25px;
     height: 25px;
@@ -156,7 +154,6 @@ footer .footer-below {
 }
 /* Add arrows to the left container (pointing right) */
 .left::before {
-    content: " ";
     height: 0;
     position: absolute;
     top: 22px;
@@ -168,7 +165,6 @@ footer .footer-below {
 }
 /* Add arrows to the right container (pointing left) */
 .right::before {
-    content: " ";
     height: 0;
     position: absolute;
     top: 22px;
